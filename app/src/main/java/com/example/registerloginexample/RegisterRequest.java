@@ -12,7 +12,7 @@ import java.util.Map;
 public class RegisterRequest extends StringRequest {
 
     // 서버 url 설정 ( php 파일 연동 )
-    final static private String URL = "http://pattyyoon.ivyro.net/Register.php";
+    final static private String URL = "http://34.234.228.90:7777/auth/register";
     private Map<String, String> map;
 
 

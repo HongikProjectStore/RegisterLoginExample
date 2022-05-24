@@ -12,7 +12,7 @@ import java.util.Map;
 public class LoginRequest extends StringRequest {
 
     // 서버 url 설정 ( php 파일 연동 )
-    final static private String URL = "http://pattyyoon.ivyro.net/Login.php";
+    final static private String URL = "http://32.234.228.90:7777/auth/login";
     private Map<String, String> map;
 
 
@@ -22,7 +22,6 @@ public class LoginRequest extends StringRequest {
         map = new HashMap<>();
         map.put("userID", userID);
         map.put("userPassword", userPassword);
-
     }
 
     @Nullable
