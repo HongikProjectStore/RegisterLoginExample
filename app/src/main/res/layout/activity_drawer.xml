@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="#CFE5FF"
+    android:id="@+id/drawer"
+    android:orientation="vertical">
+    <!--background 배경색 설정 가능, 왼쪽 상자 더블클릭해서 색 설정가능-->
+    <!--width 숫자만큼 사이드바 생성 -->
+    <!--메뉴 영역 만들기 완료-->
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="메뉴 닫기"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="test 메뉴"/>
+    <!-- linear layout은 orientation 방향을 줘야한다. alt+enter 하면 버티칼, 호리전털 선택가능 이경우 버티칼-->
+    <!-- gravity : center : 글씨가 중앙으로 생긴다 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#1749FF"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="testmenu"/>
+        <!-- layout margin : 사방으로 줄여준다. 공간생김 -->
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
