@@ -13,20 +13,47 @@
     <!--메뉴 영역 만들기 완료-->
 
     <Button
-        android:id="@+id/btn_close"
+        android:id="@+id/btn_menuclose"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="메뉴 닫기"/>
+        android:text="메뉴 닫기"
+        android:textSize="16sp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="test 메뉴"/>
     <!-- linear layout은 orientation 방향을 줘야한다. alt+enter 하면 버티칼, 호리전털 선택가능 이경우 버티칼-->
     <!-- gravity : center : 글씨가 중앙으로 생긴다 -->
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <!-- layout margin : 사방으로 줄여준다. 공간생김 -->
+        <!-- 로그인 회원가입 버튼 !!  -->
+
+        <Button
+            android:id="@+id/btn_side_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="LOG IN"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_side_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="REGISTER"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+
+
+    <!--         test menu textview 나중에 지우기        -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,4 +72,6 @@
     </LinearLayout>
 
 
+
 </LinearLayout>
+
