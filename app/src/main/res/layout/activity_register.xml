@@ -7,11 +7,37 @@
     tools:context=".RegisterActivity">
 
     <EditText
+        android:id="@+id/et_email"
+        android:layout_width="327sp"
+        android:layout_height="48sp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:hint="이메일"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_pass"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_pass"
+        app:layout_constraintTop_toBottomOf="@+id/et_pass" />
+
+    <EditText
+        android:id="@+id/et_gender"
+        android:layout_width="327sp"
+        android:layout_height="48sp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="성별"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_pass"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_pass"
+        app:layout_constraintTop_toBottomOf="@+id/et_email" />
+
+    <EditText
         android:id="@+id/et_id"
         android:layout_width="327dp"
         android:layout_height="48dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="144dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:hint="아이디"
@@ -48,21 +74,23 @@
         android:id="@+id/et_age"
         android:layout_width="327sp"
         android:layout_height="48sp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="나이"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/et_name"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/et_name"
-        app:layout_constraintTop_toBottomOf="@+id/et_name" />
+        app:layout_constraintTop_toBottomOf="@+id/et_gender" />
 
     <Button
         android:id="@+id/btn_register"
         android:layout_width="327dp"
         android:layout_height="48dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="28dp"
         android:text="회원가입"
         app:layout_constraintEnd_toEndOf="@+id/et_age"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/et_age"
         app:layout_constraintTop_toBottomOf="@+id/et_age" />
 
@@ -77,5 +105,6 @@
         app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.823" />
+        app:layout_constraintVertical_bias="0.65" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
