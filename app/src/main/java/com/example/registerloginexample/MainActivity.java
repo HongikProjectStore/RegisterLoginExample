@@ -10,6 +10,13 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.toolbox.Volley;
+
+import java.util.HashMap;
+
 public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
@@ -26,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         drawerView =(View)findViewById(R.id.drawer);
 
+        
 
 
         Button btn_open = (Button)findViewById(R.id.btn_menuopen);

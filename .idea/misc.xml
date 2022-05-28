@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/patty/AndroidStudioProjects/RegisterLoginExample/app/src/main/res/layout/activity_drawer.xml" value="0.264" />
-        <entry key="..\:/Users/patty/AndroidStudioProjects/RegisterLoginExample/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/patty/AndroidStudioProjects/RegisterLoginExample/app/src/main/res/layout/activity_login.xml" value="0.1651376146788991" />
         <entry key="..\:/Users/patty/AndroidStudioProjects/RegisterLoginExample/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/patty/AndroidStudioProjects/RegisterLoginExample/app/src/main/res/layout/activity_product_search.xml" value="0.264" />
         <entry key="..\:/Users/patty/AndroidStudioProjects/RegisterLoginExample/app/src/main/res/layout/activity_register.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/patty/AndroidStudioProjects/RegisterLoginExample/app/src/main/res/layout/activity_register_finish.xml" value="0.264" />
         <entry key="..\:/Users/patty/AndroidStudioProjects/RegisterLoginExample/app/src/main/res/layout/activity_search.xml" value="0.264" />
       </map>
     </option>
