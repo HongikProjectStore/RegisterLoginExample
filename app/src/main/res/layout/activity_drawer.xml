@@ -21,7 +21,6 @@
         android:textSize="16sp" />
 
     <!-- linear layout은 orientation 방향을 줘야한다. alt+enter 하면 버티칼, 호리전털 선택가능 이경우 버티칼-->
-    <!-- gravity : center : 글씨가 중앙으로 생긴다 -->
 
 
     <LinearLayout
@@ -67,6 +66,7 @@
             android:gravity="center"
             android:text="testmenu"/>
         <!-- layout margin : 사방으로 줄여준다. 공간생김 -->
+        <!-- gravity : center : 글씨가 중앙으로 생긴다 -->
 
 
     </LinearLayout>
