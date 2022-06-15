@@ -1,3 +1,48 @@
 <resources>
-    <string name="app_name">RegisterLoginExample</string>
+    <string name="app_name">store</string>
+    <string name="user_recommendation_text">사용자 맞춤 추천 상품</string>
+    <string name="event_list_text">행사 목록</string>
+    <string name="coupon_deal_board_text">쿠폰 거래 게시판</string>
+
+    <string name="sigin_up">회원가입</string>
+    <string name="sigin_in">로그인</string>
+
+    <string name="navi_title">편의점 영수증 앱입니다.</string>
+    <string name="login_status">로그인 완료</string>
+
+
+    <!--        activity_login          -->
+    <string name="activity_login_title">Log in</string>
+    <string name="activity_login_id">아이디</string>
+    <string name="activity_login_password">비밀번호</string>
+    <string name="activity_login_find_id">아이디 찾기</string>
+    <string name="activity_login_find_password">비밀번호 찾기</string>
+    <string name="activity_login_sigin_in">LOG IN</string>
+
+    <!--        activity_logout          -->
+    <string name="activity_logout_title">Log Out</string>
+    <string name="activity_logout_description">로그아웃 하시겠습니까?\n비회원은 사용자별 물품 추천, 영수증 촬영, 행사쿠폰\n거래 게시글 등록 및 댓글 기능 사용이 불가합니다.</string>
+    <string name="activity_logout_accept">Accept</string>
+    <string name="activity_logout_decline">Decline</string>
+
+    <!--        activity_siginup          -->
+    <string name="activity_register_title">Register</string>
+    <string name="activity_register_id">ID</string>
+    <string name="activity_register_password">Password</string>
+    <string name="activity_register_name">이름</string>
+    <string name="activity_register_email">이메일</string>
+    <string name="activity_register_gender">성별</string>
+    <string name="activity_register_age">나이</string>
+    <string name="activity_register_image">이미지</string>
+    <string name="activity_register_signup">SIGN UP</string>
+
+    <!--        navi_menu          -->
+    <string name="set_profile">프로필 설정</string>
+    <string name="my_coupon_deal_list">내 쿠폰 거래 목록</string>
+    <string name="my_coupon_share_list">내 쿠폰 나눔 목록</string>
+    <string name="receipt_photo">영수증 촬영</string>
+    <string name="coupon_deal_board">쿠폰 거래 게시판</string>
+    <string name="coupon_share_board">쿠폰 나눔 게시판</string>
+
+
 </resources>
