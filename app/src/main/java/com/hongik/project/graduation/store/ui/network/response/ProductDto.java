@@ -1,15 +1,20 @@
-package com.hongik.project.graduation.store.ui.network.request;
+package com.hongik.project.graduation.store.ui.network.response;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
+@ToString
 public class ProductDto {
     @SerializedName("pid")
     @Expose

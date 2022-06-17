@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/search_page_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/menu_bar"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ic_menu" />
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/menu_bar"
+            android:drawableLeft="@drawable/ic_search" />
+
+        <ImageButton
+            android:id="@+id/search_remove_button"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-36dp"
+            android:layout_marginTop="22dp"
+            android:layout_toRightOf="@id/search_bar"
+            android:background="@drawable/ic_text_remove" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="392dp"
+        android:layout_height="79dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_page_header"
+        app:layout_constraintVertical_bias="0.013">
+
+        // 편의점 종류 radio group
+
+        <RadioGroup
+            android:layout_width="385dp"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.384"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/search_page_header"
+            app:layout_constraintVertical_bias="0.018">
+
+            <RadioButton
+                android:id="@+id/r_button_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ALL " />
+
+            <RadioButton
+                android:id="@+id/r_button_cu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" CU " />
+
+            <RadioButton
+                android:id="@+id/r_button_gs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" GS25" />
+
+            <RadioButton
+                android:id="@+id/r_button_711"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="세븐일레븐" />
+
+            <RadioButton
+                android:id="@+id/r_button_emart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="이마트24" />
+
+
+        </RadioGroup>
+        // 행사 종류 radio group
+
+        <RadioGroup
+            android:layout_width="385dp"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.384"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/search_page_header"
+            app:layout_constraintVertical_bias="0.082">
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  all   " />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  1+1   " />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  2+1   " />
+
+            <RadioButton
+                android:id="@+id/radioButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  할인행사  " />
+
+            <RadioButton
+                android:id="@+id/radioButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  그 외" />
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="548dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.546"
+        tools:layout_editor_absoluteX="2dp">
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

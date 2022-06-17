@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d(TAG, "onResume() called");
+        Log.d(TAG, "onStart() called");
 
         Fragment userRecommendationFragment = getSupportFragmentManager().findFragmentById(R.id.user_recommendation_fragment_container);
         Fragment eventListFragment = getSupportFragmentManager().findFragmentById(R.id.event_list_fragment_container);
@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if(eventListFragment == null){
+            Log.d(TAG, "eventListFragment create");
             EventListFragment eventFragment = new EventListFragment();
             getSupportFragmentManager()
                     .beginTransaction()
